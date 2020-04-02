@@ -1,0 +1,246 @@
+/*p{
+	color:red;
+}
+
+.red{
+	height: 200px;
+	width: 100px;
+	background-color: red;
+}
+#boton-pago{
+	background-color: yellow;
+}*/
+/*Archivos externos 
+Rosa:#C6426E
+Morado:#642B73
+Negro:#999
+Gris:#f5f5f5;
+*/
+html,body{margin:0px;font-family: 'Nunito', Arial,Helvetica,sans-serif;}
+
+img{
+	max-width: 100%;
+}
+
+.table{
+	width: 100%;
+	border-spacing: 0;}
+
+.table td,.table th{
+	padding: 1em;
+	text-align: left;
+}
+
+.table tr:nth-child(even){
+	background-color:#f3e5f5;
+}
+
+
+a{text-decoration:none; color:#d500f9;}
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content{
+	/*max-width: 960px;
+	max-height: 500px;
+	width: 100%;
+	height:80vh;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 10px;
+	position: relative;
+	font-size: 1.2rem;
+	padding:1em;
+  overflow-y: scroll;
+  box-sizing: border-box;*/
+  max-width: 960px;
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  padding:1em;
+  border-radius:10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+
+}
+
+.fa-star, .fa-star-o{
+  color:#ffc400;
+}
+
+.title{margin:0.5em;
+	text-transform: uppercase;
+	/*capitalize;*/
+}
+
+.title-item{
+	/*border-bottom-style:solid;
+	border-width: 2px;
+	border-color: #C6426E;*/
+	border-bottom: solid 2px #C6426E;
+	padding-bottom: 1em;
+    /*para los pading y margin
+    padding: arriba derecha abajo izquierda
+    padding: arriba/abajo  derecha/izquierda;*/
+}
+
+.text-center{text-align: center;}
+
+.position{
+	background-color: #C6426E;
+	color:white;
+	padding: 10px;
+	border-radius: 4px;
+	 margin-right: 0.5em;	
+}
+
+
+.paragraph{
+	line-height:1.8em;
+	font-weight:200; }
+
+/*@font-face{
+	font-family: 
+	src:url();
+}*/
+
+
+  .main-image{
+  float: left;
+  margin-right: 18px;
+}
+
+.text{float:none;}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position:absolute;
+}
+
+.actions{
+	
+	top: 1em;
+	right: 1em;
+}
+
+.close{
+  border:none;
+  outline: none;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  color:white;
+  background-color: #642B73;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+  font-weight: 200;
+}
+
+
+.address{
+  font-weight: bold;
+  font-size: 1.2em;
+  color:#642B73;
+}
+
+
+.animated{
+  animation-duration: 0.6s !important;
+  animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+}
+
+@media (max-width: 600px){
+  th{display: none;}
+  td{
+    width: 100%;
+    display: block;
+  }
+  td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#642B73;
+  }
+}
+
+@media (min-width: 960px){
+  .content{
+    padding:1.8em;
+    font-size: 1rem;
+  }
+  .title{
+    margin: 1em 0;
+  }
+
+}
+
+@media (min-height: 550px){
+  .content{
+    height: 500px;
+  }
+}
+
+
+ 
+
+
+ 
+ 
+ 
+/*td{
+	border:solid 1px;
+	even pares
+	odd impares
+}*/
+
+
+/*especificar multiples propiedas pero en 
+una sola declaracion shorthand properties */
+
+
+
+
+
+/*especificidad
+es un peso que se le asigna a una declaracion,mayor
+el peso mas alta la precedencia para que se 
+le aplique las propiedades
+precendecia orden en el que se aplicara 
+1.div.content
+3.div
+2..content
+primero aplicaria  , el style mayor de 
+procedencia sobre todo , si se pone !important
+tiene mayor procedencia sobre todo
+incluso de style -> !important , style
+procedencia de selectores 
+1. selectores id
+2.selectores de clase, atributos y pesudoclases 
+3. selectores de tipo y pseudo elementos*/
+
+/* Para posicion 
+
+position:static;
+position:relative;
+position : fixed;
+position:absolute;
+position:sticky;
+
+
+
+*/

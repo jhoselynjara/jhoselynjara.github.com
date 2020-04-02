@@ -1,0 +1,32 @@
+NOTAS:
+servidores web 
+computadora que aloja o almacena el sitio web
+programa que procesa loas peticiones del cliente para enviarles la pagina web 
+
+Servidor web para ser instalados en las computadores personal
+es un programa , y hay librerias que te permiten definir 
+nodejs es un lenguaje de programacion de javascript
+
+
+descargar nodejs.gob
+luego en cmd poner node -v -> para saber si ya descarga
+npm -v -> para descargar librerias 
+npm install -g node-static  -> para descargar el servidor web
+entramos a donde esta nuestra pagina para copiar nuestra ruta en el cmd
+cd ruta de mi carpeta
+una vez dentro de mi carpeta pongo static -p 8000
+localhost -> es un hostname , un nombre a un dispositivo de la red 
+etiqueta al dispositivo loca , estas intentando conectarte a la red interna
+de tu computadora que es la que esta ejecutando al servidor web
+puerto 8000 , son puntos de entradas por donde se puede comunicar las 
+aplicaciones que se encuentran en red 
+0-1023 solo para tu computadora 
+puertos para colocar servidores web
+http para comunicarse el navegador con el servidor web
+hay en css
+p{
+}
+.red{
+}
+#boton-pago -> estos id 
+codigofacilito.com/cursos/css
